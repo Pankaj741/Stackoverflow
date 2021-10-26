@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/questionListFragment">
+
+    <fragment
+        android:id="@+id/questionListFragment"
+        android:name="com.example.stackoverflow.ui.questionlist.view.QuestionListFragment"
+        android:label="QuestionListFragment"
+        tools:layout="@layout/fragment_question_list">
+        <action
+            android:id="@+id/actionOpenFilterBottomSheetDialogFragment"
+            app:destination="@id/filterBottomSheetDialogFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/filterBottomSheetDialogFragment"
+        android:name="com.example.stackoverflow.ui.questionlist.view.FilterBottomSheetDialogFragment"
+        android:label="FilterBottomSheetDialogFragment"
+        tools:layout="@layout/fragment_filter_bottom_sheet_dialog">
+        <argument
+            android:name="filterList"
+            app:argType="string[]" />
+    </dialog>
+</navigation>

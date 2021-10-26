@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SearchView">
+        <attr name="debounceTime" format="integer" />
+        <attr name="minimumQueryTextLength" format="integer" />
+    </declare-styleable>
+</resources>

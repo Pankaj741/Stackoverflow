@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Stackoverflow</string>
+    <string name="search_bar">Search Bar</string>
+    <string name="choose_filter">Choose filter</string>
+    <string name="clear">Clear</string>
+    <string name="no_internet_connection">You don\'t have an Internet Connection.</string>
+    <string name="search_something_else">Try something else</string>
+    <string name="no_result_found">No result found</string>
+    <string name="average_view_count">Average View \n Count</string>
+    <string name="average_answer_count">Average Answer \n Count</string>
+    <string name="any_random_image">Any random Image</string>
+    <string name="no_items">No items to filter</string>
+</resources>
